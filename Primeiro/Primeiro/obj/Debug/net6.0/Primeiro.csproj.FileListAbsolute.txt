@@ -1,0 +1,15 @@
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\Primeiro.exe
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\Primeiro.deps.json
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\Primeiro.runtimeconfig.json
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\Primeiro.dll
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\ref\Primeiro.dll
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\bin\Debug\net6.0\Primeiro.pdb
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.csproj.AssemblyReference.cache
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.AssemblyInfoInputs.cache
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.AssemblyInfo.cs
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.csproj.CoreCompileInputs.cache
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.dll
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\ref\Primeiro.dll
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.pdb
+C:\DIO\bootcamp\MRV\InstalacaoIDE\Primeiro\Primeiro\obj\Debug\net6.0\Primeiro.genruntimeconfig.cache
