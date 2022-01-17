@@ -7,14 +7,33 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            // Herança
-            Professor p1 = new Professor();
-            p1.Salario = 2000;
-            p1.Nome = "Bob";
-            p1.Idade = 20;
-            p1.Documento = "123456";
+            Computador comp = new Computador();
+            System.Console.WriteLine(comp.ToString());
+            
+            // Corrente c = new Corrente();
+            // c.Creditar(100);
 
-            p1.Apresentar();
+            // c.ExibirSaldo();
+
+            // Polimorfismo em tempo de compilação
+            // Calculadora calc = new Calculadora();
+            // System.Console.WriteLine("Resultado da primeira soma: " + calc.Somar(10, 10));
+            // System.Console.WriteLine("Resultado da segunda soma: " + calc.Somar(10, 10, 10));
+
+            // Herança e polimorfismo em tempo de execução
+            // Aluno p1 = new Aluno();
+            // p1.Nome = "Bob";
+            // p1.Idade = 20;
+            // p1.Documento = "123456";
+            // p1.Nota = 10;
+            // p1.Apresentar();
+
+            // Professor p2 = new Professor();
+            // p2.Nome = "Leo";
+            // p2.Idade = 35;
+            // p2.Documento = "123456";
+            // p2.Salario = 1000;
+            // p2.Apresentar();
 
             // Encapsualamento
             // Valores válidos
