@@ -1,4 +1,5 @@
 ﻿using System;
+using ExemploPOO.Helper;
 using ExemploPOO.Interfaces;
 using ExemploPOO.Models;
 
@@ -8,8 +9,18 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            ICalculadora calc = new Calculadora();
-            System.Console.WriteLine(calc.Somar(10, 20));
+            var caminho = "C://TrabalhandoComArquivos";
+            var caminhoPathCombine = Path.Combine(caminho, "Pasta teste3", "SubPastaTeste3");
+
+            FileHelper helper = new FileHelper();
+            //helper.ListarDiretorios(caminho);
+            //helper.ListarArquivosDiretorios(caminho);
+
+            System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
+            helper.CriarDiretorio(caminhoPathCombine);
+
+            // ICalculadora calc = new Calculadora();
+            // System.Console.WriteLine(calc.Somar(10, 20));
             
             // Computador comp = new Computador();
             // System.Console.WriteLine(comp.ToString());
