@@ -10,14 +10,15 @@ namespace ExemploPOO
         static void Main(string[] args)
         {
             var caminho = "C://TrabalhandoComArquivos";
-            var caminhoPathCombine = Path.Combine(caminho, "Pasta teste3", "SubPastaTeste3");
+            //var caminhoPathCombine = Path.Combine(caminho, "Pasta teste3", "SubPastaTeste3");
+            var caminhoPathCombine = Path.Combine(caminho, "Teste1");
 
             FileHelper helper = new FileHelper();
             //helper.ListarDiretorios(caminho);
             //helper.ListarArquivosDiretorios(caminho);
-
-            System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
-            helper.CriarDiretorio(caminhoPathCombine);
+            // System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
+            // helper.CriarDiretorio(caminhoPathCombine);
+            helper.ApagarDiretorio(caminhoPathCombine, true);
 
             // ICalculadora calc = new Calculadora();
             // System.Console.WriteLine(calc.Somar(10, 20));
