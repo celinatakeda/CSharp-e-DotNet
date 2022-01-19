@@ -13,7 +13,10 @@ namespace ExemploPOO
             var caminho = "C://TrabalhandoComArquivos";
             //var caminhoPathCombine = Path.Combine(caminho, "Pasta teste3", "SubPastaTeste3");
             var caminhoPathCombine = Path.Combine(caminho, "Teste1");
-            var caminhoArquivo = Path.Combine(caminho, "arquivo-texte-stream.txt");
+            var caminhoArquivo = Path.Combine(caminho, "arquivo-teste-stream.txt");
+            var caminhoArquivoTeste = Path.Combine(caminho, "arquivo-teste.txt");
+            var caminhoArquivoTesteCopia = Path.Combine(caminho, "arquivo-teste-bkp.txt");
+            var novoCaminhoArquivo = Path.Combine(caminho, "Teste2", "arquivo-teste-stream.txt");
 
             var listaString = new List<string> {"Linha 1", "Linha 2", "Linha 3"};
             var listaStringContinuacao = new List<string> {"Linha 4", "Linha 5", "Linha 6"};
@@ -25,8 +28,12 @@ namespace ExemploPOO
             // helper.CriarDiretorio(caminhoPathCombine);
             //helper.ApagarDiretorio(caminhoPathCombine, true);
             //helper.CriarArquivoTexto(caminhoArquivo, "Olá! Teste de escrita de arquivo");
-            helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
-            helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
+            //helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+            //helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
+            //helper.LerArquivoStream(caminhoArquivo);
+            //helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
+            //helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
+            helper.DeletarArquivo(caminhoArquivoTesteCopia);
 
             // ICalculadora calc = new Calculadora();
             // System.Console.WriteLine(calc.Somar(10, 20));

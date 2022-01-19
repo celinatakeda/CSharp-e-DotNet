@@ -57,7 +57,7 @@ namespace ExemploPOO.Helper
             File.AppendAllText(caminho, conteudo);
         }
 
-           public void AdicionarTextoStream(String caminho, List<string> conteudo)
+        public void AdicionarTextoStream(String caminho, List<string> conteudo)
         {
             using (var stream = File.AppendText(caminho))
             {
@@ -66,6 +66,44 @@ namespace ExemploPOO.Helper
                     stream.WriteLine(linha);
                 } 
             }             
+        }
+
+        public void LerArquivos(string caminho)
+        {
+            var conteudo = File.ReadAllLines(caminho);
+
+            foreach (var linha in conteudo)
+            {
+                System.Console.WriteLine(linha);
+            }
+        }
+
+        public void LerArquivoStream(string caminho)
+        {
+            string linha = string.Empty;
+
+            using (var stream = File.OpenText(caminho))
+            {
+                while ((linha = stream.ReadLine()) != null)
+                {
+                     System.Console.WriteLine(linha);
+                }
+            }            
+        }
+
+        public void MoverArquivo(string caminho, string novoCaminho, bool sobrescrever)
+        {
+            File.Move(caminho, novoCaminho, sobrescrever);
+        }
+
+        public void CopiarArquivo(string caminho, string novoCaminho, bool sobrescrever)
+        {
+            File.Copy(caminho, novoCaminho, sobrescrever);
+        }
+
+        public void DeletarArquivo(string caminho)
+        {
+            File.Delete(caminho);
         }
     }
 }
