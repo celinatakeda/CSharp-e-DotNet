@@ -32,5 +32,40 @@ namespace ExemploPOO.Helper
         {
             Directory.Delete(caminho, apagarArquivos);
         }
+
+        public void CriarArquivoTexto(string caminho, string conteudo)
+        {
+            if (!File.Exists(caminho))
+            {
+                File.WriteAllText(caminho, conteudo);
+            }            
+        }
+
+        public void CriarArquivoTextoStream(String caminho, List<string> conteudo)
+        {
+            using (var stream = File.CreateText(caminho))
+            {
+                foreach (var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                } 
+            }             
+        }
+
+        public void AdionarTexto(string caminho, string conteudo)
+        {
+            File.AppendAllText(caminho, conteudo);
+        }
+
+           public void AdicionarTextoStream(String caminho, List<string> conteudo)
+        {
+            using (var stream = File.AppendText(caminho))
+            {
+                foreach (var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                } 
+            }             
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ExemploPOO.Helper;
 using ExemploPOO.Interfaces;
 using ExemploPOO.Models;
@@ -12,13 +13,20 @@ namespace ExemploPOO
             var caminho = "C://TrabalhandoComArquivos";
             //var caminhoPathCombine = Path.Combine(caminho, "Pasta teste3", "SubPastaTeste3");
             var caminhoPathCombine = Path.Combine(caminho, "Teste1");
+            var caminhoArquivo = Path.Combine(caminho, "arquivo-texte-stream.txt");
+
+            var listaString = new List<string> {"Linha 1", "Linha 2", "Linha 3"};
+            var listaStringContinuacao = new List<string> {"Linha 4", "Linha 5", "Linha 6"};
 
             FileHelper helper = new FileHelper();
             //helper.ListarDiretorios(caminho);
             //helper.ListarArquivosDiretorios(caminho);
             // System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
             // helper.CriarDiretorio(caminhoPathCombine);
-            helper.ApagarDiretorio(caminhoPathCombine, true);
+            //helper.ApagarDiretorio(caminhoPathCombine, true);
+            //helper.CriarArquivoTexto(caminhoArquivo, "Olá! Teste de escrita de arquivo");
+            helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+            helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
 
             // ICalculadora calc = new Calculadora();
             // System.Console.WriteLine(calc.Somar(10, 20));
