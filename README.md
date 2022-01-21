@@ -1,18 +1,21 @@
 # Inicializado com CSharp e DotNet
 
-1. Criando solution
+## Passo a passo para criar um projeto
+
+### 1. Criando solution
 
 dotnet new sln --name ExemploConstrutores
 
-2. Criando console
+### 2. Criando console
 
 dotnet new console --name ExemploConstrutores
 
-3. Adicionar o arquivo csproj na solution
+### 3. Adicionar o arquivo csproj na solution
 
 dotnet sln add ExemploConstrutores/ExemploConstrutores.csproj
 
-4. Abri VSCode
+### 4. Abri VSCode
+
 code .
 
 ## Links para saber mais
