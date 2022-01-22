@@ -20,6 +20,11 @@ code .
 
 ## Links para saber mais
 
+https://www.c-sharpcorner.com/UploadFile/84c85b/delegates-and-e
+vents-C-Sharp-net/
+
+https://www.tutlane.com/tutorial/csharp/csharp-events
+
 Documentação do Visual Studio:
 
 https://docs.microsoft.com/pt-br/visualstudio/windows/?view=vs-2022
