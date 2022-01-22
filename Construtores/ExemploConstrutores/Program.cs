@@ -8,15 +8,18 @@ namespace ExemploCosntrutores
         public delegate void Operacao(int x, int y);
         static void Main(string[] args)
         {
+            Matematica m = new Matematica(10, 20);
+            m.Somar();
+
             //Operacao op = Calculadora.Somar; // sem o uso do new
-            Operacao op = new Operacao(Calculadora.Somar);
+           // Operacao op = new Operacao(Calculadora.Somar);
             // Multi Cast Delegate - chamar vários métodos
             // usando += 
             // está chamando mais um método sem perder a referência do outro método
-            op += Calculadora.Subtrair; 
+            //op += Calculadora.Subtrair; 
 
             //Maneiras válidas de chamar o seu delegate
-            op.Invoke(10,10);
+            //op.Invoke(10,10);
 
             //op(10,10);
 
