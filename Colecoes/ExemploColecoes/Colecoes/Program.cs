@@ -1,25 +1,59 @@
-﻿namespace Colecoes
+﻿using Colecoes.Helper;
+
+namespace Colecoes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Array multidimensional
-            int [,] matriz = new int[4, 2]
-            {
-                { 8, 8 },
-                { 10, 20 },
-                { 50, 100 },
-                { 90, 200 }
-            };
+            OperacoesArray op = new OperacoesArray();
+            int[] array = new int[5] {6, 3, 8, 1, 9};
+            int[] arrayCopia = new int[10];
 
-            for (int i = 0; i < matriz.GetLength(0); i++)
+            int valorProcurado = 10;
+            bool existe = op.Existe(array, valorProcurado);
+
+            if (existe)
             {
-                for (int j = 0; j < matriz.GetLength(1); j++)
-                {
-                    System.Console.WriteLine(matriz[i, j]);
-                }
+                System.Console.WriteLine("Encontrei o valor: {0}", valorProcurado);
             }
+            else
+            {
+                System.Console.WriteLine("Não encontrei o valor: {0}", valorProcurado);
+            }
+
+            //System.Console.WriteLine("Array original:");
+            //op.ImprimirArray(array);
+
+            //op.OrdernarBubleSort(ref array);
+            //op.Ordenar(ref array);
+
+            //System.Console.WriteLine("Array ordenado:");
+            //op.ImprimirArray(array);
+
+            // System.Console.WriteLine("Array antes da cópia:");
+            // op.ImprimirArray(arrayCopia);
+
+            // op.Copiar(ref array, ref arrayCopia);
+            // System.Console.WriteLine("Array após a cópia:");
+            // op.ImprimirArray(arrayCopia);
+
+            // Array multidimensional
+            // int [,] matriz = new int[4, 2]
+            // {
+            //     { 8, 8 },
+            //     { 10, 20 },
+            //     { 50, 100 },
+            //     { 90, 200 }
+            // };
+
+            // for (int i = 0; i < matriz.GetLength(0); i++)
+            // {
+            //     for (int j = 0; j < matriz.GetLength(1); j++)
+            //     {
+            //         System.Console.WriteLine(matriz[i, j]);
+            //     }
+            // }
 
             // int[] arrayInteiros = new int[3];
 
