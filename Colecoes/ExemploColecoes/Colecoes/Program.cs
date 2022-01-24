@@ -10,17 +10,51 @@ namespace Colecoes
             int[] array = new int[5] {6, 3, 8, 1, 9};
             int[] arrayCopia = new int[10];
 
-            int valorProcurado = 10;
-            bool existe = op.Existe(array, valorProcurado);
+            int valorProcurado = 12;
 
-            if (existe)
+            int indice = op.ObterIndice(array, valorProcurado);
+
+            if (indice > -1)
             {
-                System.Console.WriteLine("Encontrei o valor: {0}", valorProcurado);
+                System.Console.WriteLine("O indíce do elemento {0} é: {1}", valorProcurado, indice);
+                //System.Console.WriteLine($"O indíce do elemento {valorProcurado} é: {indice}");
             }
-            else
-            {
-                System.Console.WriteLine("Não encontrei o valor: {0}", valorProcurado);
+            else{
+                System.Console.WriteLine("Valor não existente no array!");
             }
+
+            // int valorAchado = op.ObterValor(array, valorProcurado);
+
+            // if (valorAchado > 0)
+            // {
+            //     System.Console.WriteLine("Encontrei o valor!");
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Não encontrei o valor!");
+            // }
+
+            // bool todosMaiorQue = op.TodosMaiorQue(array, valorProcurado);
+
+            // if (todosMaiorQue)
+            // {
+            //     System.Console.WriteLine("Todos os valores são maior que {0}", valorProcurado);
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Existe valores que não são maiores do que {0}", valorProcurado);
+            // }
+
+            // bool existe = op.Existe(array, valorProcurado);
+
+            // if (existe)
+            // {
+            //     System.Console.WriteLine("Encontrei o valor: {0}", valorProcurado);
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Não encontrei o valor: {0}", valorProcurado);
+            // }
 
             //System.Console.WriteLine("Array original:");
             //op.ImprimirArray(array);
