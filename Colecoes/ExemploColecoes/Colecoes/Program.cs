@@ -6,22 +6,47 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            OperacoesArray op = new OperacoesArray();
-            int[] array = new int[5] {6, 3, 8, 1, 9};
-            int[] arrayCopia = new int[10];
+            List<string> estados = new List<string>();
+            estados.Add("SP");
+            estados.Add("MG");
+            estados.Add("BA");
 
-            int valorProcurado = 12;
+            System.Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
 
-            int indice = op.ObterIndice(array, valorProcurado);
-
-            if (indice > -1)
+            foreach (var item in estados)
             {
-                System.Console.WriteLine("O indíce do elemento {0} é: {1}", valorProcurado, indice);
-                //System.Console.WriteLine($"O indíce do elemento {valorProcurado} é: {indice}");
+                System.Console.WriteLine(item);
             }
-            else{
-                System.Console.WriteLine("Valor não existente no array!");
+
+            for (int i = 0; i < estados.Count; i++)
+            {
+                System.Console.WriteLine($"Índice {i}, Valor: {estados[i]}");
             }
+
+            // OperacoesArray op = new OperacoesArray();
+
+            // int[] array = new int[5] {6, 3, 8, 1, 9};
+            // int[] arrayCopia = new int[10];
+            // string[] arrayString = op.ConverterParaArrayString(array);
+
+            // //int valorProcurado = 12;
+
+            // System.Console.WriteLine($"Capacidade atual do array: {array.Length}");
+
+            // op.RedimensionarArray(ref array, array.Length * 2);
+
+            // System.Console.WriteLine($"Capacidade atual do array após redimensionar: {array.Length}");
+
+            // int indice = op.ObterIndice(array, valorProcurado);
+
+            // if (indice > -1)
+            // {
+            //     System.Console.WriteLine("O indíce do elemento {0} é: {1}", valorProcurado, indice);
+            //     //System.Console.WriteLine($"O indíce do elemento {valorProcurado} é: {indice}");
+            // }
+            // else{
+            //     System.Console.WriteLine("Valor não existente no array!");
+            // }
 
             // int valorAchado = op.ObterValor(array, valorProcurado);
 

@@ -54,5 +54,16 @@ namespace Colecoes.Helper
         {
             return Array.IndexOf(array, valor);
         }
+
+        public void RedimensionarArray(ref int [] array, int novoTamanho)
+        {
+            Array.Resize(ref array, novoTamanho);
+        }
+
+        // Convertendo um array de inteiros para string
+        public string[] ConverterParaArrayString(int[] array)
+        {
+            return Array.ConvertAll(array, elemento => elemento.ToString());
+        }
     }
 }
