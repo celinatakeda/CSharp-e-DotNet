@@ -6,22 +6,47 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            List<string> estados = new List<string>();
-            estados.Add("SP");
-            estados.Add("MG");
-            estados.Add("BA");
+            Queue<string> fila = new Queue<string>();
 
-            System.Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
+            fila.Enqueue("Leonardo");
+            fila.Enqueue("Eduardo");
+            fila.Enqueue("André");
 
-            foreach (var item in estados)
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            while (fila.Count > 0)
             {
-                System.Console.WriteLine(item);
+                System.Console.WriteLine($"Vez de: {fila.Peek()}");
+                System.Console.WriteLine($"{fila.Dequeue()} atendido");
             }
 
-            for (int i = 0; i < estados.Count; i++)
-            {
-                System.Console.WriteLine($"Índice {i}, Valor: {estados[i]}");
-            }
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            // OperacoesLista opLista = new OperacoesLista();
+            // List<string> estados = new List<string>();
+            // estados.Add("SP");
+            // estados.Add("MG");
+            // estados.Add("BA");
+
+            // List<string> estados = new List<string> {"SP", "MG", "BA"}; // lista já inicializada
+            // string[] estadosArray = new string[2] {"SC", "MT"}; 
+
+            // System.Console.WriteLine($"Quantidade de elementos na lista: {estados.Count}");
+
+            // opLista.ImprimirListaString(estados);
+
+            // System.Console.WriteLine("Removendo o elemento");
+            // estados.Remove("MG");
+
+            //estados.AddRange(estadosArray);
+           // estados.Insert(1, "RJ");
+
+            //opLista.ImprimirListaString(estados);
+
+            // foreach (var item in estados)
+            // {
+            //     System.Console.WriteLine(item);
+            // }            
 
             // OperacoesArray op = new OperacoesArray();
 
