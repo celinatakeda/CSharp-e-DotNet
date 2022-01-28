@@ -6,21 +6,80 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            Stack<string> pilhaLivros = new Stack<string>();
+            // Operação LINQ
+            // Usando o método da sintaxe de query
+            int [] arrayNumeros = new int[5] {1, 4, 8, 15, 19};
 
-            pilhaLivros.Push(".Net");
-            pilhaLivros.Push("DDD");
-            pilhaLivros.Push("Código limpo");
+            var numerosParesQuery =
+                    from num in arrayNumeros
+                    where num % 2 == 0
+                    orderby num
+                    select num;
 
-            System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count}");
+            // Usando método da sintaxe de método
+            var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
 
-            while (pilhaLivros.Count > 0)
-            {
-                System.Console.WriteLine($"Próximo livro para a leitura: {pilhaLivros.Peek()}");
-                System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso!");
-            }
+            System.Console.WriteLine("Números pares query: " + string.Join(", ", numerosParesQuery));
+            System.Console.WriteLine("Números pares método: " + string.Join(", ", numerosParesMetodo));
 
-             System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count}");
+            // Dictionary<string, string> estados = new Dictionary<string, string>();
+
+            // estados.Add("SP", "São Paulo");
+            // estados.Add("MG", "Minas Gerais");
+            // estados.Add("BA", "Bahia");
+
+            // foreach (KeyValuePair<string, string> item in estados)
+            // {
+            //     System.Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+            // }
+
+            // Acessando um valor 
+            //string valorProcurado = "SC";
+
+            //var teste = estados["SC"];
+
+            // Acessando de maneira segura
+            // if (estados.TryGetValue(valorProcurado, out string estadoEncontrado))
+            // {
+            //     System.Console.WriteLine(estadoEncontrado);
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine($"Chave {valorProcurado} não existe no dicionáirio!");
+            // }
+
+            // System.Console.WriteLine($"Removendo o valor: {valorProcurado}");
+
+            // estados.Remove(valorProcurado);
+
+            //  foreach (KeyValuePair<string, string> item in estados)
+            // {
+            //      System.Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+            // }
+
+            // System.Console.WriteLine("Valor original: ");
+            // System.Console.WriteLine(estados[valorProcurado]);
+
+            // estados[valorProcurado] = "BA - teste atualização";
+
+            // System.Console.WriteLine("Valor atualizado: ");
+            // System.Console.WriteLine(estados[valorProcurado]);
+
+            // Stack<string> pilhaLivros = new Stack<string>();
+
+            // pilhaLivros.Push(".Net");
+            // pilhaLivros.Push("DDD");
+            // pilhaLivros.Push("Código limpo");
+
+            // System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count}");
+
+            // while (pilhaLivros.Count > 0)
+            // {
+            //     System.Console.WriteLine($"Próximo livro para a leitura: {pilhaLivros.Peek()}");
+            //     System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso!");
+            // }
+
+            //  System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count}");
 
             // Queue<string> fila = new Queue<string>();
 
