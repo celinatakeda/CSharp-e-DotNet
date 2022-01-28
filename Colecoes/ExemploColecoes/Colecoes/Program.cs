@@ -8,19 +8,32 @@ namespace Colecoes
         {
             // Operação LINQ
             // Usando o método da sintaxe de query
-            int [] arrayNumeros = new int[5] {1, 4, 8, 15, 19};
+            int [] arrayNumeros = new int[10] {100, 1, 4, 0, 8, 15, 19, 19, 4, 100};
 
-            var numerosParesQuery =
-                    from num in arrayNumeros
-                    where num % 2 == 0
-                    orderby num
-                    select num;
+            var minimo = arrayNumeros.Min();
+            var maximo = arrayNumeros.Max();
+            var medio = arrayNumeros.Average();
+            var soma = arrayNumeros.Sum();
+            var arrayUnico = arrayNumeros.Distinct().ToArray();
 
-            // Usando método da sintaxe de método
-            var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
+            System.Console.WriteLine($"Mínimo: {minimo}");
+            System.Console.WriteLine($"Máximo: {maximo}");
+            System.Console.WriteLine($"Médio: {medio}");
+            System.Console.WriteLine($"Soma: {soma}");
+            System.Console.WriteLine($"Array original: {string.Join(", ", arrayNumeros)}");
+            System.Console.WriteLine($"Array distinto: {string.Join(", ", arrayUnico)}");
 
-            System.Console.WriteLine("Números pares query: " + string.Join(", ", numerosParesQuery));
-            System.Console.WriteLine("Números pares método: " + string.Join(", ", numerosParesMetodo));
+            // var numerosParesQuery =
+            //         from num in arrayNumeros
+            //         where num % 2 == 0
+            //         orderby num
+            //         select num;
+
+            // // Usando método da sintaxe de método
+            // var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
+
+            // System.Console.WriteLine("Números pares query: " + string.Join(", ", numerosParesQuery));
+            // System.Console.WriteLine("Números pares método: " + string.Join(", ", numerosParesMetodo));
 
             // Dictionary<string, string> estados = new Dictionary<string, string>();
 
