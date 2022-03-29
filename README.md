@@ -14,7 +14,7 @@ dotnet new console --name ExemploConstrutores
 
 dotnet sln add ExemploConstrutores/ExemploConstrutores.csproj
 
-### 4. Abri a pasta no VSCode
+### 4. Abre a pasta no VSCode
 
 code .
 
