@@ -89,7 +89,6 @@ namespace Revisao
 
                 opcaoUsuario = ObterOpcaoUsuario();
             }
-
         }
 
         private static string ObterOpcaoUsuario()
