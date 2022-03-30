@@ -22,7 +22,7 @@ code .
 ### Documentação do .NET
 https://docs.microsoft.com/pt-BR/dotnet/
 
-### 
+### delegates-and-events-C-Sharp-net
 https://www.c-sharpcorner.com/UploadFile/84c85b/delegates-and-events-C-Sharp-net/
 
 https://www.tutlane.com/tutorial/csharp/csharp-events
