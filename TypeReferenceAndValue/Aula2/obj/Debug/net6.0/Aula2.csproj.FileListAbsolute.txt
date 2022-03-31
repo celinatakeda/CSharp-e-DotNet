@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\Aula2.exe
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\Aula2.deps.json
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\Aula2.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\Aula2.dll
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\ref\Aula2.dll
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\bin\Debug\net6.0\Aula2.pdb
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.dll
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\ref\Aula2.dll
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.pdb
+C:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula2\obj\Debug\net6.0\Aula2.genruntimeconfig.cache
