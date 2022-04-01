@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Aula4
-build_property.ProjectDir = c:\curso\repositories\CSharp-e-DotNet\TypeReferenceAndValue\Aula4\
+build_property.RootNamespace = File_And_FileInfo
+build_property.ProjectDir = C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\

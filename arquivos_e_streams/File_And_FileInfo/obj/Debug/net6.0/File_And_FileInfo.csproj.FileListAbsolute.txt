@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.exe
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.deps.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\ref\File_And_FileInfo.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\ref\File_And_FileInfo.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.genruntimeconfig.cache
