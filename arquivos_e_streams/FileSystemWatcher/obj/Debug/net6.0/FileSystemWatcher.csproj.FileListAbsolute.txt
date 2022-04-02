@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\FileSystemWatcher.exe
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\FileSystemWatcher.deps.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\FileSystemWatcher.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\FileSystemWatcher.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\ref\FileSystemWatcher.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\bin\Debug\net6.0\FileSystemWatcher.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\ref\FileSystemWatcher.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\FileSystemWatcher\obj\Debug\net6.0\FileSystemWatcher.genruntimeconfig.cache
