@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\StringReader.exe
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\StringReader.deps.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\StringReader.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\StringReader.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\ref\StringReader.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\bin\Debug\net6.0\StringReader.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\ref\StringReader.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\StringReader\obj\Debug\net6.0\StringReader.genruntimeconfig.cache
