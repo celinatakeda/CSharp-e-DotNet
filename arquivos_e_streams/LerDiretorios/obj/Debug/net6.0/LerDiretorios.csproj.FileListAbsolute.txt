@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\LerDiretorios.exe
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\LerDiretorios.deps.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\LerDiretorios.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\LerDiretorios.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\ref\LerDiretorios.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\bin\Debug\net6.0\LerDiretorios.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\ref\LerDiretorios.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\LerDiretorios\obj\Debug\net6.0\LerDiretorios.genruntimeconfig.cache
