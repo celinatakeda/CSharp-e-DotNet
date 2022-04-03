@@ -1,0 +1,15 @@
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\csvStream.exe
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\csvStream.deps.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\csvStream.runtimeconfig.json
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\csvStream.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\ref\csvStream.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\bin\Debug\net6.0\csvStream.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.csproj.AssemblyReference.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.AssemblyInfoInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.AssemblyInfo.cs
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.csproj.CoreCompileInputs.cache
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\ref\csvStream.dll
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.pdb
+C:\curso\repositories\CSharp-e-DotNet\arquivos_e_streams\csvStream\obj\Debug\net6.0\csvStream.genruntimeconfig.cache
