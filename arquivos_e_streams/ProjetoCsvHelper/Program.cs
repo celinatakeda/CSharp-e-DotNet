@@ -1,17 +1,68 @@
 ﻿using System.Globalization;
 using CsvHelper.Configuration;
 using CsvHelper;
+using CsvHelper.TypeConversion;
 
 //LerCSVComDynamic();
 //LerCSVComClasse();
-LerCsvComOutroDelimitador();
+//LerCsvComOutroDelimitador();
+EscreverCsv();
 
 Console.WriteLine("Digite [enter] para finalizar");
 Console.ReadLine();
 
+static void EscreverCsv()
+{
+    var path = Path.Combine(Environment.CurrentDirectory,"Saida");
+
+    var di = new DirectoryInfo(path);
+
+    if(!di.Exists)
+        di.Create();
+
+    path = Path.Combine(path,"usuarios.csv");
+
+    var pessoas = new List<Pessoa>()
+    {
+        new Pessoa()
+        {
+            Nome = "José da Silva",
+            Email = "js@gmail.com",
+            Telefone = 123456,
+        },
+        new Pessoa()
+        {
+            Nome = "Pedro Paiva",
+            Email = "pp@gmail.com",
+            Telefone = 456789,
+        },
+        new Pessoa()
+        {
+            Nome = "Maria Antonia",
+            Email = "ma@gmail.com",
+            Telefone = 123456,
+        },
+        new Pessoa()
+        {
+            Nome = "Carla Moraes",
+            Email = "cms@gmail.com",
+            Telefone = 9987411,
+
+        },
+    };
+
+    using var sr = new StreamWriter(path);
+    var csvConfig = new CsvConfiguration(CultureInfo.InstalledUICulture)
+    {
+        Delimiter = "|"
+    };
+    using var csvWriter = new CsvWriter(sr,csvConfig);
+    csvWriter.WriteRecords(pessoas);
+}   
+
 static void LerCsvComOutroDelimitador()
 {
-      var path = Path.Combine(Environment.CurrentDirectory,"Entrada", "Livros-preco-com-virgula.csv");
+    var path = Path.Combine(Environment.CurrentDirectory,"Entrada", "Livros-preco-com-virgula.csv");
 
     var fi = new FileInfo(path);
 
@@ -25,7 +76,7 @@ static void LerCsvComOutroDelimitador()
     };
 
     using var csvReader = new CsvReader(sr, csvConfig);
-
+    csvReader.Context.RegisterClassMap<LivroMap>();
     var registros = csvReader.GetRecords<Livro>().ToList();
 
     foreach (var registro in registros)
